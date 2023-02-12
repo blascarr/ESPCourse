@@ -3,6 +3,7 @@
 // ---------------------------------------------------//
 #if defined(ESP32)
   #include <WiFi.h>
+  #include <HTTPClient.h>
 #endif
 
 #if defined(ESP8266)
