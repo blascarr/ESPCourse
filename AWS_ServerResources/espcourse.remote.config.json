@@ -1,0 +1,9 @@
+{
+    "links":[
+        
+    ],
+    "scripts":[
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+        "https://espcourse.s3.eu-west-3.amazonaws.com/espcourse_toggle.js"
+    ]
+}
