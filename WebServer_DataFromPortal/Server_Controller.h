@@ -12,6 +12,7 @@ void initWebServer() {
   });
 
   server.on( SERVER_ENDPOINT ,  HTTP_GET, [] (AsyncWebServerRequest *request) {  
+    DUMPLN(" Server Data From  ", SERVER_ENDPOINT );
     if (request->hasParam( SERVER_DATA )){
       String jsonData = request->getParam(SERVER_DATA)->value();
       DUMPLN(" JSON Data ", jsonData );

@@ -1,1 +1,1 @@
-char esp_html[] PROGMEM = "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>ESP Course</title></head><body></body><script src=\"https://espcourse.s3.eu-west-3.amazonaws.com/rscManager.js\"></script></html>";
+char esp_html[] PROGMEM = "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>ESP Course</title></head><body>Send Data<input type=\"checkbox\" id=\"toggle\" name=\"toggle_checkbox\" ></body><script src=\"https://espcourse.s3.eu-west-3.amazonaws.com/rscManager.js\"></script></html>";
